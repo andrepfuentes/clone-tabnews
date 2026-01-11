@@ -1,29 +1,34 @@
 {
-"name": "clone-tabnews",
-"version": "1.0.0",
-"description": "Um projeto para treinar programação",
-"main": "index.js",
-"scripts": {
-"dev": "next dev",
-"build": "next build",
-"start": "next start",
-"lint": "next lint"
-},
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/andrepfuentes/clone-tabnews.git"
-},
-"keywords": [],
-"author": "",
-"license": "ISC",
-"type": "module",
-"bugs": {
-  "url": "https://github.com/andrepfuentes/clone-tabnews/issues"
-},
-"homepage": "https://github.com/andrepfuentes/clone-tabnews#readme",
-"dependencies": {
-  "next": "^16.1.1",
-  "react": "^19.2.3",
-  "react-dom": "^19.2.3"
-}
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "Um projeto para treinar programação",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrepfuentes/clone-tabnews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/andrepfuentes/clone-tabnews/issues"
+  },
+  "homepage": "https://github.com/andrepfuentes/clone-tabnews#readme",
+  "dependencies": {
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
 }
